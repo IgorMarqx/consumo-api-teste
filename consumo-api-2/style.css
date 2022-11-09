@@ -1,0 +1,53 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #003B71;
+}
+
+.header header {
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    max-width: 120px;
+}
+
+.content-cards{
+    margin-top: 3rem;
+}
+/* 
+.carde{
+    padding: 1rem;
+    background-color: #f8f8f8;
+    width: 15rem;
+    min-height: 10rem;
+    border-radius: 1rem;
+
+    -webkit-box-shadow: 0px 0px 4px 0px #000000;
+    box-shadow: 0px 0px 4px 0px #000000;
+}
+
+.carde img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.descricao{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .75rem;
+}
+
+.descricao p {
+    margin: 0;
+} */
