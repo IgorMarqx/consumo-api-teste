@@ -22,8 +22,13 @@ body {
 
 .content-cards{
     margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
-/* 
+
 .carde{
     padding: 1rem;
     background-color: #f8f8f8;
@@ -50,4 +55,4 @@ body {
 
 .descricao p {
     margin: 0;
-} */
+}
