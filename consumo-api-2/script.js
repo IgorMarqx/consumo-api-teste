@@ -3,10 +3,10 @@ async function getUsers() {
     divPai.innerHTML = ''
 
     const btnAtt = document.getElementById('att')
-    btnAtt.setAttribute('disabled', false)
+    btnAtt.setAttribute('disabled', true)
     const response = await fetch('https://api.randomuser.me/?results=11')
     const data = await response.json()
-    btnAtt.removeAttribute('disabled', true)
+    btnAtt.removeAttribute('disabled')
 
     const results = data.results
     createCardPerson(results)
