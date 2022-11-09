@@ -1,0 +1,42 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #003B71;
+}
+
+.header header {
+    padding: 1rem 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    max-width: 120px;
+}
+
+table {
+    width: 100%;
+    background-color: #faf9f9;
+
+    border-radius: 1rem;
+    padding: 1rem;
+    
+    -webkit-box-shadow: 0px 0px 4px 0px #000000;
+    box-shadow: 0px 0px 4px 0px #000000;
+}
+
+.content-table {
+    margin-top: 5rem;
+}
+
+table thead th{
+    border-bottom: 1px solid #000;
+    padding: 1rem;
+    margin: 1rem;
+}
